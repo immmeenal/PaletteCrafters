@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.NavBody{
+    background-color: #fff;
+    margin-bottom: 25px;
+    
+}
+
+.NavBG{
+    background-color: #d19976;
+}
+
+.NavItem{
+    display: flex;
+}
+
+.NavName{
+    margin-left: 80px;
+}
+
+.NavName:hover{
+   cursor: pointer;
+   transform: scale(1.3);
+   
+   
+}
+
+.Icons{
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.IconDiv{
+    padding: 10px;
+    height: 120px;
+    width: 120px;
+}
+
+.IconIMG{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.IconText{
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.SlideIMG{
+    height: 600px;
+}
+
+.CardRow{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cardcolor{
+     /* background-color: #f3bc9a; */
+    /* border: ;  */
+    box-shadow: 5px 5px 5px 5px #efe1d6;
+}
+
+.cardcolor:hover{
+    /* background-color: #e; */
+
+    box-shadow: 2px 2px 2px 2px ;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.CardText{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.CardIMG{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.btn{
+    color: #efe1d6;
+    text-decoration: none;
+}
+.ExploreBTN{
+    color: #efe1d6;
+    background-color: black;
+    margin-left: 70px;
+    height: 45px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    border-radius: 70px;
+}
+
+/* .ExploreBTN:hover{
+    color: #efe1d6;
+    background-color: black;
+    height: 45px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    border: 1px solid black;
+} */
+
+.FCDecor{
+    margin-top: 50px;
+}
+
+.carousel {
+    background: #EEE;
+  }
+
+
+  .carousel-cell {
+    width: 18%;
+    height: 400px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+
+  .carousel-cell2{
+    width: 18%;
+    height: 400px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+  
+
+
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(carousel-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+  .gift-img{
+    height: 610px;
+  }
+  .services{
+    height: 400px;
+    width: 100%;
+    display: block;
+    background-color: #d19976;
+    margin-top: 40px;
+  }
+  .carousel-cell3{
+    width: 18%;
+    height: 400px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    margin-top: 5px;
+    counter-increment: carousel-cell;
+
+  }
+  .services{
+    display: block;
+  }
+  .background-color{
+    background-color: #d19976;
+  }
+  .color{
+    color: black;
+  }
+  .center{
+    margin-left: 100px;
+  }
+  .width{
+    width: 100%;
+    display: block;
+  }
+  .img-size{
+    height: 30px;
+  }
+  .img-fluid{
+    width: 100%;
+  }
+.explore{
+  text-align: center;
+}
+.explore-more{
+ text-decoration: none;
+ color: black;
+ border-radius: 70px;
+ background-color: #d19976;
+ height: 60px;
+ font-size: 20px;
+ width: 80px;
+ padding: 10px;
+
+
+}
+.explore-more:hover{
+  transform: scale(1.3);
+  color: white;
+  background-color: black;
+  
+}
+
+  
+
+ 
+@media screen and (max-width:600px) and (min-width:500px) {
+ 
+
+
+
+    
+}
+
+
+
+
+  
+  
