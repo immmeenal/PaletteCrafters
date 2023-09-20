@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Feedback Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style> 
+    body{
+        background-color: lightgray;
+        font-family: 'Roboto', sans-serif;
+    }
+    .feedback-box{
+        width: 510px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
+        background-color: darksalmon;
+        border: 5px solid cadetblue;
+        border-radius: 10px; 
+        box-shadow: -10px -10px 14px wheat;
+        cursor: pointer;
+    }
+    h1{
+        text-align: center;
+        padding-top: 20px;
+    }
+    h4{
+        text-align: center;
+    }
+    form{
+        width: 320px;
+        margin-left: 20px;
+    }
+    form label{
+        display: flex;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    form input, 
+    form select,
+    form textarea {
+        width: 450px;
+        padding: 12px;
+        border: none;
+        border: 1px solid grey;
+        border-radius: 7px;
+    }
+    input[type="button"]{
+        width: 450px;
+        height: 40px;
+        margin-top: 20px;
+        border: none;
+        background-color: indianred;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    input[type="button"]:hover{
+        background-color: cornflowerblue;
+        color: blue;
+    }
+    p{
+        text-align: center;
+        padding-top: 25px;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    p a{
+        text-decoration: none;
+    }
+    .link1{
+        text-align: center;
+        color: blue;
+        font-size: 16px;
+        margin-top: 9px;
+        text-decoration: none;
+    }
+    .feedback-a{
+        text-decoration: none;
+    } 
+    </style>
+</head>
+<body>
+    <div class="feedback-box">
+        <h1>Feedback Form</h1>
+        <h4>We'd love to hear from you!</h4>
+        <form>
+            <label>Category</label>
+            <select>
+                <option value="product1">Paints</option>
+                <option value="product2">Colors</option>
+                <option value="product3">Brushes</option>
+                <option value="product3">Accesories</option>
+                <option value="product3">Papers</option>
+                <option value="product3">Boards</option>
+            </select>
+            <label>Product ID</label>
+            <input type="number"placeholder="">
+            <label>Your Feedback</label>
+            <textarea rows="4" cols="50" placeholder="Enter your feedback here"></textarea>
+            <a href="./index.html">
+                <input type="button" value="Submit Feedback">  
+            </a>
+        </form>
+    
+        <p>By clicking the Submit Feedback button, you agree to our<br>
+        <a href="#">Terms and Conditions</a> and <a href="#" id="">Privacy Policy</a>
+        </p>
+    
+    </div>
+</body>
+</html>
